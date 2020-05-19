@@ -11,5 +11,5 @@ $ docker pull henrysimon/testing:notebook
 and run by using (if using linux, if using windows just point to the yml that you change the folder above)  
 $ docker-compose -f /application/Project/simon/docker-compose.yml up -d  
   
-and you can browse the jupyter by opening browser (no password needed)  
+and you can browse the jupyter by opening browser (no password / token needed)  
 http://localhost:8888  
