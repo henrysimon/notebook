@@ -1,6 +1,5 @@
 # notebook
 this are the files needed to run jupyter notebook docker container
-
 put this files in /application (linux vm / or if you in windows you can remap the folder in docker-compose.yml)
 ###sample volumes in docker-compose.yml in Project/simon/docker-compose.yml
     volumes:
