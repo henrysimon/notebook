@@ -1,0 +1,13 @@
+version: '2'
+services:
+  notebook:
+    image: 'henrysimon/testing:notebook'
+    privileged: true
+    ports:
+      - '8888:8888'
+    volumes:
+      - '/application/Project/simon/files:/home/jovyan/files'
+      - '/application/Project/simon/config:/home/jovyan/config'
+    environment:
+     - JUPITERPATH=/home/jovyan/files
+     - JUPYTER_CONFIG_DIR=/home/jovyan/config
